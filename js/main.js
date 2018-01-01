@@ -6,11 +6,12 @@ $(document).ready(function(){
   $("#rgb-input").keyup(function(){
     processRgbInput();
   });
-
 });
 
 function processHexInput() {
-  $("#rgb-input").val("rgb value");
+  var userInput = $("#hex-input").val();
+  console.log("the user inputed: "+userInput);
+  $("#rgb-input").val(userInput); //. means to call a function 
 }
 
 function processRgbInput() {
