@@ -1,77 +1,25 @@
-#title {
+body {
+  text-align: center;
+}
+
+h1 {
   color: #F70047;
-  position:absolute;
   font-size: 50px;
   font-family: 'Courgette', cursive;
-  top: 15%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
 }
 
-#title2 {
+h2 {
   color: #A0A0A0;
-  position:absolute;
   font-size: 20px;
   font-family: 'Varela', sans-serif;
-  top: 20%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  letter-spacing:0px;
 }
-
-
-
-
-
 
 .search {
-  width: 100%;
-  position: relative
+  width: 300px;
+  margin: 0 auto;
 }
 
-.searchTerm {
-  float: left;
-  width: 100%;
-  border: 3px solid #F90066;
-  padding: 5px;
-  height: 30px;
-  border-radius: 5px;
-  outline: none;
-  color: #F90066;
-  font-family: 'Varela', sans-serif;
-  font-size: 25px;
-}
-
-.searchTerm:focus{
-  color: black;
-  font-family: 'Varela', sans-serif;
-  font-size: 25px;
-}
-
-/*Resize the wrap to see the search bar change!*/
-.wrap{
-  width: 25%;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-
-
-
-
-
-.search2 {
-  width: 100%;
-  position: relative
-}
-
-.searchTerm2 {
-  float: left;
+.search-term {
   width: 100%;
   border: 3px solid #F90066;
   padding: 5px;
@@ -83,138 +31,8 @@
   font-size: 25px;
 }
 
-.searchTerm2:focus{
+.search-term:focus{
   color: black;
   font-family: 'Varela', sans-serif;
   font-size: 25px;
-}
-
-
-/*Resize the wrap to see the search bar change!*/
-.wrap2{
-  width: 25%;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-
-
-
-
-
-.search3 {
-  width: 100%;
-  position: relative
-}
-
-.searchTerm3 {
-  float: left;
-  width: 100%;
-  border: 3px solid #F90066;
-  padding: 5px;
-  height: 30px;
-  border-radius: 5px;
-  outline: none;
-  color: #F90066;
-  font-family: 'Varela', sans-serif;
-  font-size: 25px;
-}
-
-.searchTerm3:focus{
-  color: black;
-  font-family: 'Varela', sans-serif;
-  font-size: 25px;
-}
-
-
-/*Resize the wrap to see the search bar change!*/
-.wrap3{
-  width: 25%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-
-
-
-
-.search4 {
-  width: 100%;
-  position: relative
-}
-
-.searchTerm4 {
-  float: left;
-  width: 100%;
-  border: 3px solid #F90066;
-  padding: 5px;
-  height: 30px;
-  border-radius: 5px;
-  outline: none;
-  color: #F90066;
-  font-family: 'Varela', sans-serif;
-  font-size: 25px;
-}
-
-.searchTerm4:focus{
-  color: black;
-  font-family: 'Varela', sans-serif;
-  font-size: 25px;
-}
-
-
-/*Resize the wrap to see the search bar change!*/
-.wrap4{
-  width: 25%;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-
-
-
-
-
-
-.search5 {
-  width: 100%;
-  position: relative
-}
-
-.searchTerm5 {
-  float: left;
-  width: 100%;
-  border: 3px solid #F90066;
-  padding: 5px;
-  height: 30px;
-  border-radius: 5px;
-  outline: none;
-  color: #F90066;
-  font-family: 'Varela', sans-serif;
-  font-size: 25px;
-}
-
-.searchTerm5:focus{
-  color: black;
-  font-family: 'Varela', sans-serif;
-  font-size: 25px;
-}
-
-
-/*Resize the wrap to see the search bar change!*/
-.wrap5{
-  width: 25%;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
