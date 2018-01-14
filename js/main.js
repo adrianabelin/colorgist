@@ -29,7 +29,7 @@ function processHexInput() {
   var gValueString = gValue.toString();
   var bValueString = bValue.toString();
 
-  var combinedString = rValueString + ", " + gValueString + ", " + bValueString;
+  var combinedString = "rgb(" + rValueString + ", " + gValueString + ", " + bValueString + ")";
   //we use strings instead of ints here to prevent the program from adding the numbers like math.
 
   $("#rgb-input").val(combinedString); //. means to call a function
