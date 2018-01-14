@@ -14,6 +14,10 @@ function processHexInput() {
   if (userInput[0] == "#") {
     userInput = userInput.substr(1);
   }
+  if (userInput.length != 6) {
+    $("#rgb-input").val("");
+    return;
+  }
 
 
 
