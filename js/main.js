@@ -1,4 +1,9 @@
 $(document).ready(function(){
+  $('#rgb-input').formatter({
+    'pattern': 'rgb({{999}}, {{999}}, {{999}})',
+    'persistent': true
+  });
+
   $("#hex-input").keyup(function(){
     processHexInput();
   });
@@ -38,5 +43,6 @@ function processHexInput() {
 
 
 function processRgbInput() {
-  $("#hex-input").val("hex value");
+  var userInput = $("#rgb-input").val();
+  console.log("the user inputed: "+userInput);
 }
