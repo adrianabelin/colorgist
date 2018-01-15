@@ -2,6 +2,20 @@ body {
   text-align: center;
 }
 
+#copyright {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 10px;
+  color: #A0A0A0;
+  font-family: 'Varela', sans-serif;
+  font-size: 15px;
+
+}
+
+
+
+
 h1 {
   color: #F70047;
   font-size: 50px;
